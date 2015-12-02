@@ -3,21 +3,21 @@ require 'wedding'
 describe "Wedding#default_config" do
   it "returns default config options" do
     Wedding.default_config.should eql({
-        :groom_name => "Jai",
-        :groom_about => "Programmer, Traveller, Photographer, Biker, SlideShare Engineer",
-        :groom_occupation => "Hacker at SlideShare",
-        :groom_email => "jaipandya@gmail.com",
-        :bride_name => "Prerita",
-        :bride_about => "Banker, Traveller, Dancer, Painter, Dreamer",
-        :bride_occupation => "Asst. Manager at Bank of Baroda",
-        :bride_email => "preritayadav@gmail.com",
+        :groom_name => "Rajat",
+        :groom_about => "Programmer, Traveller, Photographer, Flipkart Engineer",
+        :groom_occupation => "Software Engineer",
+        :groom_email => "rajatmathurr@gmail.com",
+        :bride_name => "Saloni",
+        :bride_about => "Engineer , Traveller, Dancer, Painter, Dreamer",
+        :bride_occupation => "Software Engineer,
+        :bride_email => "saloniv@gmail.com",
         :location => "26° 53.415', 75° 48.466'",
         :event_schedule => [
           "7:00 pm Barats starts from Home",
-          "8:00 pm Barat reaches venue",
+          "9:00 pm Barat reaches venue",
           "12:00 pm Fere"
         ],
-        :date => "29 November 2013"
+        :date => "5 December 2015"
       }) 
   end
 end
